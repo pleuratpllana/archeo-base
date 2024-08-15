@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="La digitalizaci&#xF3;n de publicaciones aumenta considerablemente la visibilidad de los hallazgos arqueol&#xF3;gicos.La agrupaci&#xF3;n de publicaciones junto a un motor de b&#xFA;squeda dentro de la misma base de datos, proporciona una facilidad de investigaci&#xF3;n sin precedentes y un conocimiento profundo de la problem&#xE1;tica planteada."
+    />
+    <title>Publicación de Archeo</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../images/01_FavIcon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap and CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <!-- JQuery Script -->
+    <script src="../scripts/jQuery.js" crossorigin="anonymous"></script>
+
+    <!-- Alternate links Links -->
+    <link rel="alternate" hreflang="fr" href="../archeo-publication.html" />
+    <link rel="alternate" hreflang="de" href="../de/archeo-publikation.html" />
+    <link rel="alternate" hreflang="es" href="publicación-de-archeo.html" />
+    <link
+      rel="alternate"
+      hreflang="it"
+      href="../it/pubblicazione-archeo.html"
+    />
+    <link rel="alternate" hreflang="en" href="../en/archeo-publication.html" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../es.html">
+              <img
+                src="../images/archeobase_ic_org.svg"
+                style="width: 228px"
+                alt="logo"
+                class="img-fluid"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-x-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"
+                />
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../es.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownSolution"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Soluciones</a
+                  >
+                  <ul
+                    class="dropdown-menu text-center"
+                    id="menu_solution"
+                    style="width: auto !important"
+                    aria-labelledby="navbarDropdownSolution"
+                  >
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/entrada-de-archeo.html"
+                        >Entrada de Archeo</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/archeo-análisis.html"
+                        >Análisis de Archeo</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/publicación-de-archeo.html"
+                        >Publicación de Archeo</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/vista-archeo.html"
+                        >Vista de Archeo</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/archeo-foro.html"
+                        >Foro de Archeo</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/archivo-archeo.html"
+                        >Archivo de Archeo</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="precio.html">Precio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    ES
+                  </a>
+                  <ul
+                    class="dropdown-menu text-center"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="../archeo-publication.html"
+                        >FR</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="../de/archeo-publikation.html"
+                        >DE</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="../en/archeo-publication.html"
+                        >EN</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="../it/pubblicazione-archeo.html"
+                        >IT</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="publicación-de-archeo.html"
+                        >ES</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <div class="d-flex">
+                <button class="btn loginBtn" type="button">login</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div>
+      <main role="main" class="pb-3">
+        <div class="in_dev">
+          Publicaciónd de Archeo est&#xE1; actualmente en desarrollo. Por favor,
+          h&#xE1;ganos saber si tiene necesidades o preguntas
+          espec&#xED;ficas.<a style="margin-left: 10px" href="contacto.html"
+            >Contacto</a
+          >
+        </div>
+
+        <!-- Page Banner-->
+        <section id="pageHeadingBanner">
+          <div class="apPageBanner">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-7 pageHeadingCtrl mb-0">
+                  <img
+                    src="../images/32_AS-Partner.png"
+                    alt="books"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-lg-5 pageHeadingContentCtrl">
+                  <h2 class="sectionTitle">Publicación de Archeo</h2>
+                  <p class="subTitle mt-0">
+                    Herramienta de b&#xFA;squeda y de publicaci&#xF3;n en
+                    l&#xED;nea
+                  </p>
+                  <div class="containerBox">
+                    <p class="sectionText">
+                      La digitalizaci&#xF3;n de publicaciones aumenta
+                      considerablemente la visibilidad de los hallazgos
+                      arqueol&#xF3;gicos.&lt;br&gt;La agrupaci&#xF3;n de
+                      publicaciones junto a un motor de b&#xFA;squeda dentro de
+                      la misma base de datos, proporciona una facilidad de
+                      investigaci&#xF3;n sin precedentes y un conocimiento
+                      profundo de la problem&#xE1;tica planteada.
+                    </p>
+                  </div>
+                </div>
+                <hr class="PageHeadingDivider" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Coping With the Growing Amount of Infomration-->
+        <section id="copingWithTheGrowing">
+          <div class="container copingInfo">
+            <div class="row align-items-center">
+              <div class="col-md-5 d-flex mt-3">
+                <div class="copingTextCtrl">
+                  <img
+                    src="../images/33_Article.png"
+                    class="featuredIcon mb-4"
+                    alt="article"
+                  />
+                  <h2 class="sectionTitle">
+                    Hacer frente a la creciente cantidad de información
+                  </h2>
+                </div>
+              </div>
+              <div class="col-md-5 offset-md-2">
+                <p class="sectionText">
+                  El volumen de datos, su ritmo de producción y su variedad
+                  están aumentando exponencialmente. Hoy en día, el obstáculo ya
+                  no es la falta de información, sino el exceso de información
+                  que puede abrumar al lector.<br />Basado en este principio, la
+                  clave para la resolución está en una lectura dirigida de las
+                  publicaciones. Se trata de poder disponer de potentes
+                  buscadores, para poder identificar y seleccionar muy
+                  rápidamente los artículos de interés.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Search, Translation & Editing Tool Starts Here -->
+        <section id="searchTranslation">
+          <div class="container searchContainer">
+            <div class="row">
+              <div class="topContent text-center">
+                <img
+                  src="../images/34_Edit.png"
+                  class="featuredIcon mb-5"
+                  alt="edit"
+                />
+                <h2 class="sectionTitle">
+                  Herramienta de búsqueda, traducción y redacción
+                </h2>
+                <p class="sectionText" style="font-size: 21px">
+                  ArcheoPublication ofrece una triple ventaja, a saber:
+                </p>
+              </div>
+              <div class="searchFeatures">
+                <div class="row">
+                  <div class="col-lg-4 f1 d-flex">
+                    <h4 class="number"><span class="number-bg">01</span></h4>
+                    <p class="sectionText">
+                      Ser capaz de redactar informes o art&#xED;culos de calidad
+                      cient&#xED;fica en l&#xED;nea con una optimizaci&#xF3;n
+                      del proceso de trabajo vinculado a las fases de
+                      redacci&#xF3;n, correcci&#xF3;n y publicaci&#xF3;n.
+                    </p>
+                  </div>
+                  <div class="col-lg-3 f2 offset-lg-1 d-flex">
+                    <h4 class="number"><span class="number-bg">02</span></h4>
+                    <p class="sectionText">
+                      Ofrecer una capacidad de b&#xFA;squeda sin precedentes
+                      dentro de publicaciones en formato PDF cuyo contenido no
+                      es visible para los motores de b&#xFA;squeda ordinarios.
+                    </p>
+                  </div>
+                  <div class="col-lg-3 f3 offset-lg-1 d-flex">
+                    <h4 class="number"><span class="number-bg">03</span></h4>
+                    <p class="sectionText">
+                      Hacer una b&#xFA;squeda autom&#xE1;tica multiling&#xFC;e
+                      con traducci&#xF3;n autom&#xE1;tica de los art&#xED;culos
+                      seleccionados.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Analycital Valuation -->
+        <section id="analyticalValuation">
+          <div class="container analyticalContainer">
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+              <div class="col-md-5 d-flex align-items-center">
+                <p class="sectionText just">
+                  Al lector se le pueden ofrecer artículos directamente
+                  relacionados con sus intereses. El contenido de las
+                  publicaciones se puede proyectar en un mapa, si los artículos
+                  tienen referencias espaciales.<br />También se pueden
+                  configurar análisis automáticos vinculados al contenido de las
+                  publicaciones, para tener un tablero que muestre dinámicamente
+                  las estadísticas vinculadas a las publicaciones de contenido.
+                  Otros tipos de procedimientos de análisis (análisis de
+                  correspondencia, etc.) están disponibles y pueden
+                  implementarse a pedido.
+                </p>
+              </div>
+              <div class="col-md-6 mt-5 col-sm-order-1 mt-md-0 offset-md-1">
+                <img
+                  src="../images/35_Analytical.png"
+                  class="featuredIcon mb-4"
+                  alt="analytical"
+                />
+                <h2 class="sectionTitle">
+                  Valorización analítica del contenido de las publicaciones
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Overcoming Language Barriers to Increase Knowledge -->
+        <section id="languageBarriers">
+          <div class="container languageContainer">
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+              <div class="languageContent text-center">
+                <img
+                  src="../images/36_Language.png"
+                  class="featuredIcon mb-4"
+                  alt="language"
+                />
+                <h2
+                  class="sectionTitle"
+                  style="max-width: 843px; margin: 0 auto"
+                >
+                  Superar las barreras del idioma para aumentar el conocimiento
+                </h2>
+                <p class="sectionText" style="max-width: 800px; margin: 0 auto">
+                  El desarrollo del conocimiento y la ciencia se ve potenciado
+                  por la disponibilidad de un motor de b&#xFA;squeda potente y
+                  multiling&#xFC;e, que ofrece traducci&#xF3;n autom&#xE1;tica
+                  de art&#xED;culos seleccionados.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Current Status  -->
+        <section id="currentStatus">
+          <div class="container currentInfo">
+            <div class="row align-items-center">
+              <div class="col-md-5 d-flex mt-5">
+                <div class="currentTextCtrl">
+                  <img
+                    src="../images/37_File.png"
+                    class="featuredIcon mb-4"
+                    alt="file"
+                  />
+                  <h2 class="sectionTitle">
+                    Estado actual de ArcheoPublication
+                  </h2>
+                </div>
+              </div>
+              <div class="col-md-5 offset-md-2">
+                <p class="sectionText">
+                  ArcheoPublication contiene las publicaciones del Swiss
+                  Archaeology Yearbook (1987-2017). El motor de b&#xFA;squeda ya
+                  permite realizar b&#xFA;squedas multiling&#xFC;es
+                  espec&#xED;ficas en estos archivos PDF, representar
+                  espacialmente los datos en un mapa y traducir el contenido de
+                  los art&#xED;culos seleccionados.
+                </p>
+              </div>
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                style="box-shadow: 0px 4px 21px #aaaaaa; margin-top: 65px"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="4"
+                    aria-label="Slide 5"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="../images/39_Slide-One.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../images/40_Slide-Two.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../images/41_Slide-Three.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../images/42_Slide-Four.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../images/43_Slide-Five.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Future Vision -->
+        <section id="futureVision">
+          <div class="container futureContainer">
+            <div class="row align-items-center">
+              <div class="topContent text-center">
+                <img
+                  src="../images/38_Vision.png"
+                  class="featuredIcon mb-4"
+                  alt="vision"
+                />
+                <h2 class="sectionTitle">Visión futura</h2>
+                <p
+                  class="sectionText"
+                  style="
+                    margin: 0 auto;
+                    max-width: 769px;
+                    text-align: justify;
+                    margin-bottom: 91px;
+                  "
+                >
+                  A medio plazo, lo ideal ser&#xED;a integrar otras
+                  publicaciones arqueol&#xF3;gicas, escritas en diferentes
+                  idiomas, con el fin de ofrecer a los profesionales del mundo
+                  arqueol&#xF3;gico y lectores apasionados los resultados de
+                  investigaciones dirigidas y multiling&#xFC;es difundidos en
+                  m&#xFA;ltiples art&#xED;culos.
+                </p>
+              </div>
+
+              <div class="bottomContent">
+                <div class="row">
+                  <div class="col-lg-5 left">
+                    <h2 class="sectionTitle mb-0">
+                      Distribución de contenidos
+                    </h2>
+                    <p class="sectionText">
+                      En cuanto a la herramienta de redacci&#xF3;n, el usuario
+                      puede redactar sus informes o art&#xED;culos directamente
+                      en la plataforma ArcheoPublication. Tendr&#xE1; libertad
+                      para restringir el contenido a los niveles ArcheoBase
+                      individual, institucional, profesional o abrirlo al
+                      p&#xFA;blico en general.
+                    </p>
+                  </div>
+                  <div class="col-lg-5 right offset-lg-2">
+                    <h2 class="sectionTitle mb-0">Proceso de trabajo</h2>
+                    <p class="sectionText">
+                      En el contexto de publicaciones especializadas, las
+                      instituciones tambi&#xE9;n podr&#xE1;n beneficiarse de un
+                      proceso de trabajo integrado vinculado a la
+                      redacci&#xF3;n, revisi&#xF3;n, validaci&#xF3;n y
+                      publicaci&#xF3;n de art&#xED;culos en forma de revista
+                      cient&#xED;fica.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="curveBGWithFooter">
+          <h2 class="sectionTitle d-none"></h2>
+          <div class="container">
+            <div class="footerContent">
+              <div class="row">
+                <div class="col-md-4 footerLinks">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/es/precio.html">Precio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/es/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/es/aviso-legal.html"
+                        >Avisos legales</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4 text-md-center footerLogo">
+                  <img
+                    src="../images/archeobase_ic_org.svg"
+                    alt="logo"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-md-4 text-md-end">
+                  <p class="copyright">
+                    © AnalyticBase Sàrl 2024 - All Rights Reserved
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scripts     -->
+        <script type="text/javascript">
+          var contact_page_url = "contact.html";
+        </script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+          integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+          integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+          crossorigin="anonymous"
+        ></script>
+        <script src="../scripts/master.js" crossorigin="anonymous"></script>
+        <script src="../scripts/videojs.js" type="text/javascript"></script>
+      </main>
+    </div>
+  </body>
+</html>

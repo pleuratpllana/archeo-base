@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="ArcheoBase, una soluzione per l&#x27;acquisizione, l&#x27;analisi e la promozione del patrimonio archeologico"
+    />
+    <title>Archeo Ingresso</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../images/01_FavIcon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap and CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <!-- JQuery Script -->
+    <script src="../scripts/jQuery.js" crossorigin="anonymous"></script>
+
+    <!-- Alternate links Links -->
+    <link rel="alternate" hreflang="fr" href="../archeo-entrée.html" />
+    <link rel="alternate" hreflang="de" href="../de/archeo-eintrag.html" />
+    <link rel="alternate" hreflang="es" href="../es/entrada-de-archeo.html" />
+    <link rel="alternate" hreflang="it" href="archeo-ingresso.html" />
+    <link rel="alternate" hreflang="en" href="../en/archeo-entry.html" />
+  </head>
+  <body>
+    <!-- Navbar Starts Here -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../it.html">
+              <img
+                src="../images/archeobase_ic_org.svg"
+                style="width: 228px"
+                alt="logo"
+                class="img-fluid"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-x-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"
+                />
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../it.html">Iniziale</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownSolution"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Soluzioni</a
+                  >
+                  <ul
+                    class="dropdown-menu text-center"
+                    id="menu_solution"
+                    style="width: auto !important"
+                    aria-labelledby="navbarDropdownSolution"
+                  >
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="archeo-ingresso.html"
+                        >Archeo Ingresso</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="archeo-analisi.html"
+                        >Archeo Analisi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="pubblicazione-archeo.html"
+                        >Archeo Pubblicazione</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="vista-archeo.html"
+                        >Archeo Vista</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="archeo-forum.html"
+                        >Archeo Forum</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="archivio-archeo.html"
+                        >Archeo Archivio</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="prezzo.html">Prezzo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contatto.html">Contatto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    IT
+                  </a>
+                  <ul
+                    class="dropdown-menu text-center"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="../archeo-entrée.html"
+                        >FR</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../de/archeo-eintrag.html"
+                        >DE</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../en/archeo-entry.html"
+                        >EN</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="archeo-ingresso.html"
+                        >IT</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="../es/entrada-de-archeo.html"
+                        >ES</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <div class="d-flex">
+                <button class="btn loginBtn" type="button">login</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div>
+      <main role="main" class="pb-3">
+        <!-- Page Banner -->
+        <section id="pageHeadingBanner">
+          <div class="aePageBanner">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-7 pageHeadingCtrl">
+                  <img
+                    src="../images/17_MockupDevices.png"
+                    alt="forms"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-lg-5 pageHeadingContentCtrl">
+                  <h2 class="sectionTitle justify-content-md-start">
+                    Archeo Ingresso
+                  </h2>
+                  <p class="subTitle mt-0" style="font-size: 18px">
+                    Applicazione di acquisizione di informazioni archeologiche
+                  </p>
+                  <div class="containerBox">
+                    <p class="sectionText">
+                      ArcheoEntry è l'unico strumento di inserimento delle
+                      informazioni che si adatta completamente alle vostre
+                      esigenze. Il suo dinamismo consente di ridurre
+                      notevolmente il tempo necessario per la gestione dei dati
+                      di campo e l'analisi post-scavo. È stato progettato su
+                      basi tecnologiche molto solide per gestire cantieri di
+                      grandi dimensioni e l'acquisizione simultanea di un gran
+                      numero di utenti.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Forms adapted to Your Needs -->
+        <section id="formsAdapted">
+          <div
+            class="container formsContainer"
+            style="border-top: 1px solid #eeeeee; padding-top: 80px"
+          >
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+              <div class="col-md-5 d-flex align-items-center">
+                <div class="formsTextCtrl">
+                  <h2 class="sectionTitle">
+                    Moduli adatti a <span> I tuoi bisogni</span>
+                  </h2>
+                  <p class="secSubTitle">
+                    Crea i moduli da solo o selezionali da un registro condiviso
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-5 mt-5 col-sm-order-1 mt-md-0 offset-md-2">
+                <div class="formsContentCtrl text-center align-items-center">
+                  <img
+                    src="../images/19_Forms.png"
+                    alt="forms"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <hr class="sectionDivider" />
+            <div class="row innerContent">
+              <div class="col-lg-4">
+                <h3 class="innerContentTitle">
+                  <span class="innerContent-black-bg">Moduli dinamici</span>
+                </h3>
+                <p class="sectionText">
+                  I moduli sono facilmente configurabili dall&#x27;utente e
+                  possono essere facilmente adattati alle esigenze individuali
+                  di ogni organizzazione e cantiere. Non ci sono limiti alla
+                  complessit&#xE0; dei moduli che puoi creare. Trascina e
+                  rilascia menu a discesa, campi semplici, testo, dati numerici,
+                  date, schizzi, schede, tabelle...
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <h3 class="innerContentTitle">
+                  <span class="innerContent-yellow-bg"
+                    >Tabella configurabile</span
+                  >
+                </h3>
+                <p class="sectionText">
+                  I dati dei moduli possono essere visualizzati come tabelle,
+                  con una selezione di colonne definite dall&#x27;utente. Su
+                  questa base, i dati possono quindi essere facilmente esportati
+                  in diversi formati (xls, csv...).
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <h3 class="innerContentTitle">
+                  <span class="innerContent-black-bg">Registro dei moduli</span>
+                </h3>
+                <p class="sectionText">
+                  I moduli creati possono essere archiviati privatamente o
+                  condivisi con altri utenti o istituzioni tramite un registro
+                  di moduli.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Work from Anywhere -->
+        <section id="workAnywhere">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="workAnywhereCtrl align-items-center">
+                  <img
+                    src="../images/20_WorkFromAnywhere.png"
+                    alt="workAnywhere"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-md-5 ps-md-5 d-flex align-items-center mt-5 mt-md-0"
+              >
+                <div class="workAnywhereTextCtrl">
+                  <h2 class="sectionTitle">
+                    Lavora da <span>qualsiasi luogo</span>
+                  </h2>
+                  <p class="secSubTitle">
+                    Sincronizzazione istantanea tra gli utenti del cantiere e
+                    dell&#x27;ufficio
+                  </p>
+                </div>
+              </div>
+
+              <hr class="sectionDivider" />
+
+              <div class="container innerContent">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <h3 class="innerContentTitle">
+                      <span class="innerContent-yellow-bg"
+                        >Gestione centralizzata</span
+                      >
+                    </h3>
+                    <p class="sectionText">
+                      L&#x27;applicazione web consente di sincronizzare i dati
+                      in tempo reale, indipendentemente dal numero di utenti
+                      sullo stesso sito. Osserva l&#x27;avanzamento del cantiere
+                      e lavora dalla tua scrivania.
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <h3 class="innerContentTitle">
+                      <span class="innerContent-black-bg">Interfaccia web</span>
+                    </h3>
+                    <p class="sectionText">
+                      ArcheoBase pu&#xF2; essere utilizzato da qualsiasi browser
+                      web. L&#x27;utente beneficia dello stesso ambiente di
+                      lavoro, sia in ufficio che con un tablet sul campo.
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <h3 class="innerContentTitle">
+                      <span class="innerContent-yellow-bg"
+                        >Immissione unica</span
+                      >
+                    </h3>
+                    <p class="sectionText">
+                      L&#x27;immissione su carta non &#xE8; pi&#xF9; necessaria.
+                      L&#x27;acquisizione dei dati una sola volta consente un
+                      notevole risparmio di tempo.
+                    </p>
+                  </div>
+                  <div class="col-lg-4 mt-4">
+                    <h3 class="innerContentTitle">
+                      <span class="innerContent-black-bg"
+                        >Condivisione dei dati</span
+                      >
+                    </h3>
+                    <p class="sectionText">
+                      ArcheoBase facilita la condivisione di informazioni tra le
+                      istituzioni. L&#x27;utente pu&#xF2; decidere se vuole
+                      mantenere i suoi dati all&#x27;interno della propria
+                      istituzione o se vuole renderli accessibili ad altri
+                      utenti o istituzioni.
+                    </p>
+                  </div>
+                  <div class="col-lg-4 mt-4">
+                    <h3 class="innerContentTitle">
+                      <span class="innerContent-yellow-bg"
+                        >Progetti di gruppo</span
+                      >
+                    </h3>
+                    <p class="sectionText">
+                      Gli utenti di diverse istituzioni o individui possono
+                      creare un progetto di gruppo e lavorare insieme.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Integrated GIS-->
+        <section id="integratedGis">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 mb-5 mb-md-0">
+                <div class="integratedGisCtrl">
+                  <img src="../images/21_GIS.png" alt="GIS" class="img-fluid" />
+                </div>
+              </div>
+              <div
+                class="col-md-4 ps-md-5 d-flex align-items-center mt-5 mt-md-0 offset-md-2"
+              >
+                <div class="integratedGisTextCtrl">
+                  <h2 class="sectionTitle"><span>GIS</span> integrato</h2>
+                  <p class="secSubTitle">
+                    Visualizza i tuoi dati georeferenziati, visualizza le tue
+                    ortofoto
+                  </p>
+                </div>
+              </div>
+
+              <hr class="sectionDivider" />
+
+              <div class="container innerContent">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <h3 class="innerContentTitle">
+                      <span class="innerContent-black-bg"
+                        >Panoramica e visualizzazione sulla mappa</span
+                      >
+                    </h3>
+                    <p class="sectionText">
+                      I dati inseriti, se georeferenziati, sono automaticamente
+                      integrati in un sistema di informazione geografica (GIS).
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <h3 class="innerContentTitle">
+                      <span class="innerContent-yellow-bg"
+                        >Importazione GIS</span
+                      >
+                    </h3>
+                    <p class="sectionText">
+                      L&#x27;importazione di punti topografici e la loro
+                      visualizzazione sulla mappa possono essere effettuate
+                      tramite una procedura di importazione da file XLSX o CSV.
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <h3 class="innerContentTitle">
+                      <span class="innerContent-black-bg">Ortofoto</span>
+                    </h3>
+                    <p class="sectionText">
+                      Le ortofoto caricate sono pubblicate dal sistema in modo
+                      da poter essere visualizzate sulla mappa in modalit&#xE0;
+                      web, pur mantenendo un altissimo livello di qualit&#xE0;.
+                      Gli originali rimangono scaricabili in qualsiasi momento
+                      dall&#x27;utente.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Security-->
+        <section id="security">
+          <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+              <div class="col-md-5 d-flex align-items-center">
+                <div class="securityTextCtrl">
+                  <h2 class="sectionTitle"><span>Sicurezza</span></h2>
+                  <p class="secSubTitle">
+                    Diritti, archiviazione, disponibilit&#xE0;,
+                    tracciabilit&#xE0;, backup, sicurezza a tutti i livelli
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-5 mt-5 col-sm-order-1 mt-md-0 offset-md-2">
+                <div class="securityContentCtrl text-center">
+                  <img
+                    src="../images/servers.jpg"
+                    alt="security"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container innerContent">
+            <hr class="sectionDivider" />
+            <div class="row">
+              <div class="col-lg-4">
+                <h3 class="innerContentTitle">
+                  <span class="innerContent-yellow-bg"
+                    >Capacit&#xE0; di carico</span
+                  >
+                </h3>
+                <p class="sectionText">
+                  Il programma &#xE8; stato progettato per supportare carichi di
+                  dati elevati, pur mantenendo una velocit&#xE0; di esecuzione
+                  eccellente. L&#x27;archiviazione di dati, documenti e foto
+                  &#xE8; illimitata.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <h3 class="innerContentTitle">
+                  <span class="innerContent-black-bg"
+                    >Rintracciabilit&#xE0;</span
+                  >
+                </h3>
+                <p class="sectionText">
+                  Nessuna informazione va persa. La tracciabilit&#xE0; di tutte
+                  le modifiche &#xE8; assicurata da un sistema di backup
+                  automatico che permette di risalire nel tempo per identificare
+                  le modifiche effettuate.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <h3 class="innerContentTitle">
+                  <span class="innerContent-yellow-bg">Potenza di calcolo</span>
+                </h3>
+                <p class="sectionText">
+                  La potenza di calcolo &#xE8; immediatamente disponibile per
+                  tutte le procedure che richiedono solide basi a questo livello
+                  (elaborazione di immagini, intelligenza artificiale, ecc.).
+                </p>
+              </div>
+              <div class="col-lg-4 mt-4">
+                <h3 class="innerContentTitle">
+                  <span class="innerContent-black-bg">Diritti specifici</span>
+                </h3>
+                <p class="sectionText">
+                  Un sofisticato sistema di permessi permette di definire gli
+                  utenti che hanno accesso alle informazioni di un cantiere,
+                  cos&#xEC; come le azioni (lettura-scrittura-amministrazione)
+                  loro assegnate
+                </p>
+              </div>
+              <div class="col-lg-4 mt-4">
+                <h3 class="innerContentTitle">
+                  <span class="innerContent-yellow-bg"
+                    >Archiviazione ridondante</span
+                  >
+                </h3>
+                <p class="sectionText">
+                  L&#x27;archiviazione dei dati &#xE8; ridondante e altamente
+                  sicura con backup giornalieri.
+                </p>
+              </div>
+              <div class="col-lg-4 mt-4">
+                <h3 class="innerContentTitle">
+                  <span class="innerContent-black-bg">Modulo di backup</span>
+                </h3>
+                <p class="sectionText">
+                  Per le istituzioni che lo desiderano, sar&#xE0; disponibile un
+                  modulo di backup ed esportazione automatizzato. Esso
+                  consentir&#xE0; di esportare regolarmente tutte le
+                  informazioni contenute in ArcheoBase su un altro server.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Other Features  -->
+        <section id="otherFeatures">
+          <div class="container">
+            <div class="row align-items-stretch">
+              <div class="col-lg-4 col-md-6">
+                <h2 class="sectionTitle">Altre <span>caratteristiche</span></h2>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="box-item">
+                  <img
+                    src="../images/23_Sketch.png"
+                    class="img-fluid"
+                    alt="sketch"
+                  />
+                  <h5 class="box-title">Schizzo</h5>
+                </div>
+                <p class="infoTxt">
+                  In modo da rendere la realizzazione di schizzi, l&#x27;utente
+                  pu&#xF2; disegnare a mano su una foto in background. Tale foto
+                  pu&#xF2; essere scattata direttamente con il tablet o essere
+                  importata dalla cartella delle foto. Le immagini di scheletri
+                  sono state pretrattate, in modo che l&#x27;utente possa
+                  facilmente evidenziare le ossa scoperte.
+                </p>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="box-item">
+                  <img
+                    src="../images/24_Microphone.png"
+                    class="img-fluid"
+                    alt="microphone"
+                  />
+                  <h5 class="box-title">Inserimento vocale</h5>
+                </div>
+                <p class="infoTxt">
+                  La velocit&#xE0; e l&#x27;uniformit&#xE0; di inserimento sono
+                  garantite tramite menu a tendina. Questo sistema &#xE8;
+                  completato da uno strumento di input vocale che ritrascrive
+                  direttamente nei campi di input gli elementi dettati
+                  dall&#x27;utente.
+                </p>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="box-item">
+                  <img
+                    src="../images/25_Tablet.png"
+                    class="img-fluid"
+                    alt="tablet"
+                  />
+                  <h5 class="box-title">Condivisione di tablet</h5>
+                </div>
+                <p class="infoTxt">
+                  Per limitare i costi dei materiali, gli utenti possono
+                  condividere un tablet sul campo. Un sistema di login rapido
+                  consente di effettuare rapidamente i cambi utente.
+                </p>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="box-item" style="padding: 47px 43px 67px 54px">
+                  <img
+                    src="../images/26_Image-Recognition.png"
+                    class="img-fluid"
+                    alt="image"
+                  />
+                  <h5 class="box-title">Riconoscimento delle immagini</h5>
+                </div>
+                <p class="infoTxt">
+                  Un sistema di rilevamento dei caratteri su un&#x27;immagine
+                  permette di collegare automaticamente le foto scattate con una
+                  targhetta di riferimento e le unit&#xE0; archeologiche o
+                  tecniche che le riguardano.
+                </p>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="box-item">
+                  <img
+                    src="../images/27_Language.png"
+                    class="img-fluid"
+                    alt="language"
+                  />
+                  <h5 class="box-title">Multilinguismo</h5>
+                </div>
+                <p class="infoTxt">
+                  Come tutti gli altri moduli di ArcheoBase, ArcheoEntry &#xE8;
+                  disponibile in diverse lingue (francese, tedesco, inglese,
+                  italiano).
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Forward Looking-->
+        <section id="forwardLooking">
+          <div class="container">
+            <h2 class="sectionTitle text-center">Uno sguardo al futuro</h2>
+
+            <div class="row align-items-stretch">
+              <div class="col-lg-6 mt-3 mb-4">
+                <div class="card-2 h-100">
+                  <img
+                    src="../images/28_Development.png"
+                    class="img-fluid"
+                    alt="development"
+                  />
+                  <h5 class="cardTitle mt-5">Sviluppo continuo</h5>
+                  <p class="cardText mt-3">
+                    Nuove funzionalit&#xE0; vengono implementate continuamente.
+                    Le priorit&#xE0; in termini di sviluppo sono state fissate e
+                    sono consultabili sulla pagina &#xAB;Il mio account&#xBB;.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mt-3 mb-4">
+                <div class="card-2 h-100">
+                  <img
+                    src="../images/29_Community.png"
+                    class="img-fluid"
+                    alt="community"
+                  />
+                  <h5 class="cardTitle mt-5">Approccio comunitario</h5>
+                  <p class="cardText mt-3">
+                    ArcheoBase vive attraverso un approccio partecipativo
+                    incorporando i suggerimenti degli utenti. Le soluzioni
+                    tecniche per le esigenze identificate vengono implementate
+                    direttamente e messe a disposizione dell&#x27;intera
+                    comunit&#xE0; di utenti.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Video Presentation -->
+        <section id="videoPresentation">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 mb-5">
+                <h2 class="sectionTitle">
+                  Video di <span>presentazione</span>
+                </h2>
+                <div class="videoPresentationCtrl">
+                  <video
+                    id="my-player"
+                    class="video-js vjs-16-9"
+                    controls
+                    preload="auto"
+                    data-setup="{ 'fluid': true}"
+                  >
+                    <source
+                      src="https://archeoch.s3.eu-central-1.amazonaws.com/help/intro_v1.mp4"
+                      type="video/mp4"
+                    />
+                    <p class="vjs-no-js">
+                      To view this video please enable JavaScript, and consider
+                      upgrading to a web browser that supports HTML5 video
+                    </p>
+                  </video>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 ps-md-5 d-flex align-items-center justify-content-lg-end justify-content-md-start justify-content-sm-start mt-5 mt-md-0 offset-lg-2"
+              >
+                <div class="videoPresentationTextCtr">
+                  <div style="font-size: 24px; margin-bottom: 15px">
+                    Prova gratuitamente l&#x27;app?
+                  </div>
+                  <div>
+                    <button class="btn commonBtn commonBtnSecond free_test">
+                      Ottenere una prova di 4 mesi
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="curveBGWithFooter">
+          <h2 class="sectionTitle d-none"></h2>
+          <div class="container">
+            <div class="footerContent">
+              <div class="row">
+                <div class="col-md-4 footerLinks">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/it/prezzo.html">Prezzo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/it/contatto.html">Contatto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/it/avviso-legale.html"
+                        >Avvisi legali</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4 text-md-center footerLogo">
+                  <img
+                    src="../images/archeobase_ic_org.svg"
+                    alt="logo"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-md-4 text-md-end">
+                  <p class="copyright">
+                    © AnalyticBase Sàrl 2024 - All Rights Reserved
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scripts     -->
+        <script type="text/javascript">
+          var contact_page_url = "/it/contatto.html";
+        </script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+          integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+          integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+          crossorigin="anonymous"
+        ></script>
+        <script src="../scripts/master.js" crossorigin="anonymous"></script>
+        <script src="../scripts/videojs.js" type="text/javascript"></script>
+      </main>
+    </div>
+  </body>
+</html>

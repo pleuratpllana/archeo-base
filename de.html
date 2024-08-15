@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <!-- Required meta tags -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mit ArcheoBase erfassen, analysieren und f&#xF6;rdern Sie die Arch&#xE4;ologie und ihre Erkenntnisse." />
+    <title>ArcheoBase, Technologie im Dienste der Archäologie</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/01_FavIcon.png" type="image/x-icon">
+
+    <!-- Bootstrap and CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+    <!-- JQuery Script -->
+    <script src="./scripts/jQuery.js" crossorigin="anonymous"></script>
+
+     <!-- Alternate links Links -->
+     <link rel="alternate" hreflang="fr" href="index.html" />
+     <link rel="alternate" hreflang="de" href="de.html" />
+     <link rel="alternate" hreflang="es" href="es.html" />
+     <link rel="alternate" hreflang="it" href="it.html" />
+     <link rel="alternate" hreflang="en" href="en.html" />
+ 
+</head>
+<body> 
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                        <a class="navbar-brand" href="de.html">
+                            <img src="./images/archeobase_ic_org.svg" style="width:228px" alt="logo" class="img-fluid">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                              </svg>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="de.html">Homepage</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSolution" role="button" data-bs-toggle="dropdown" aria-expanded="false">L&#xF6;sungen</a>
+                                    <ul class="dropdown-menu text-center" id="menu_solution" style="width:auto!important" aria-labelledby="navbarDropdownSolution">
+                                        <li><a style="padding:10px;" class="dropdown-item" href="de/archeo-eintrag.html">Archeo Eintrag</a></li>
+                                        <li><a style="padding:10px;" class="dropdown-item" href="de/archeo-analysieren.html">Archeo Analysieren</a></li>
+                                        <li><a style="padding:10px;" class="dropdown-item" href="de/archeo-publikation.html">Archeo Publikation</a></li>
+                                        <li><a style="padding:10px;" class="dropdown-item" href="de/archeo-ansicht.html">Archeo Ansicht</a></li>
+                                        <li><a style="padding:10px;" class="dropdown-item" href="de/archeo-forum.html">Archeo Forum</a></li>
+                                        <li><a style="padding:10px;" class="dropdown-item" href="de/archeo-archiv.html">Archeo Archiv</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="de/preis.html">Preise</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="de/kontakt.html">Kontakt</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        DE
+                                    </a>
+                                    <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="index.html">FR</a></li>
+                                        <li><a class="dropdown-item" href="de.html">DE</a></li>
+                                        <li><a class="dropdown-item" href="en.html">EN</a></li>
+                                        <li><a class="dropdown-item" href="it.html">IT</a></li>
+                                        <li><a class="dropdown-item" href="es.html">ES</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        <!-- Login Button -->
+                        <div class="d-flex">
+                            <button class="btn loginBtn" type="button">login</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+    <main role="main" class="pb-3">
+            
+    <!-- Banner -->
+    <section id="banner">
+        <div class="container px-0 px-md-3">
+            <div class="bannerContent">
+                <h1 class="bannerTitle text-center">Technologie <span>im Dienste</span> der Archäologie</h1>
+                <p class="bannerText text-center">
+                   Mit ArcheoBase erfassen, analysieren und f&#xF6;rdern Sie die Arch&#xE4;ologie und ihre Erkenntnisse.
+                </p>
+                <div class="btnControler text-center">
+                    <a href="#archoEntry" id="read_more_scroll" class="btn commonBtn" role="button">Mehr erfahren</a>
+                </div>
+            </div>
+            <div class="deskTopCtrl text-center">
+                <img src="./images/04_Desktop-Mockup.png" alt="desktop" class="img-fluid">
+            </div>
+            <hr class="deskTopDivider">
+        </div>
+    </section>
+
+    <!-- ArchoEntry -->
+    <section id="archoEntry">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="archoTextCtrl">
+                        <h2 class="sectionTitle">Archeo <span>Eintrag</span></h2>
+                        <p class="secSubTitle">Arch&#xE4;ologische Informationen erfassen</p>
+                        <p class="sectionText">Wie k&#xF6;nnen Sie mehr und schnellere Erkenntnisse mit der gleichen Menge an Ressourcen sammeln?</p>
+
+                        <a href="de/archeo-eintrag.html" class="btn commonBtn commonBtnSecond mt-5" role="button">Mehr erfahren</a>
+
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="archoContentCtrl text-center">
+                        <img src="./images/05_Archeo-Entry.png" alt="archoEntry" class="img-fluid">
+                        <a class="d-flex align-items-center arrowTxt justify-content-center mt-5" href="de/archeo-eintrag.html">ArcheoBase als Multiplikator Ihrer Ressourcen<i class="fa fa-chevron-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ArchoEntry -->
+
+    <!-- ArcheoAnalysis-->
+    <section id="ArcheoAnalysis">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <div class="arcoContentCtrl text-start">
+                        <img src="./images/06_Archeo-Analysis_v1.png" alt="ArcheoAnalysis" class="img-fluid">
+                        <a class="d-flex align-items-center arrowTxt justify-content-center mt-5" href="de/archeo-analysieren.html">ArcheoBase als intuitive L&#xF6;sung f&#xFC;r komplexe Analyseprobleme.<i class="fa fa-chevron-circle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 ps-md-5 d-flex align-items-center mt-5 mt-md-0">
+                    <div class="archoTextCtrl">
+                        <h2 class="sectionTitle">Archeo <span>Analysieren</span></h2>
+                        <p class="secSubTitle">Arch&#xE4;ologische Informationen analysieren</p>
+                        <p class="sectionText">Wie k&#xF6;nnen Sie verborgene Zusammenh&#xE4;nge erkennen, Bedeutung hinter den Informationen entdecken und den &#xDC;berblick behalten?</p>
+
+                        <a href="de/archeo-analysieren.html" class="btn commonBtn mt-5" role="button">Mehr erfahren</a> 
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ArcheoPublication -->
+    <section id="ArcheoPublication">
+        <div class="container text-center">
+            <h2 class="sectionTitle coloredText">Archeo <span>Publikation</span></h2>
+            <p class="secSubTitle">Arch&#xE4;ologische Informationen ver&#xF6;ffentlichen</p>
+            <p class="sectionText" style="margin:0 auto; max-width:600px">Wie k&#xF6;nnen Sie Artikel in einem wissenschaftlichen Format ver&#xF6;ffentlichen und Schl&#xFC;sselinformationen finden, die &#xFC;ber mehrere Publikationen im PDF-Format verstreut sind?</p>
+
+            <div class="btnControler text-center">
+                <a href="de/archeo-publikation.html" class="btn commonBtn commonBtnSecond mt-5" role="button">Mehr erfahren</a>
+            </div>
+          
+            <div class="mobileImgCtlr text-center">
+                <img src="./images/07_Archeo-Publication_v2.png" alt="ArcheoPublication" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- ArcheoView-->
+    <section id="ArcheoView">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center mb-5 mb-md-0">
+                    <div class="archoTextCtrl">
+                        <h2 class="sectionTitle">Archeo <span>Ansicht</span></h2>
+                        <p class="secSubTitle">Die Arch&#xE4;ologie f&#xF6;rdern</p>
+                        <p class="sectionText">Wie kann das arch&#xE4;ologische Erbe der &#xD6;ffentlichkeit sowie dem Bildungs- und Tourismussektor zug&#xE4;nglich gemacht werden?</p>
+                            <a href="de/archeo-ansicht.html" class="btn commonBtn mt-5" role="button">Mehr erfahren</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="arcoContentCtrl text-center">
+                        <div class="text-end"><img src="./images/08_Archeo-View.png" alt="archoEntry" class="img-fluid"></div>
+                        <a class="d-flex align-items-center arrowTxt justify-content-center mt-5" href="de/archeo-ansicht.html">ArcheoBase als mobilisierendes und vereinendes Element <i class="fa fa-chevron-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ArcheoForum -->
+    <section id="ArcheoForum">
+        <div class="container text-center">
+            <h2 class="sectionTitle">Archeo <span>Forum</span></h2>
+            <p class="secSubTitle">Mit der Gemeinschaft in Verbindung bleiben</p>
+            <p class="sectionText">Wie k&#xF6;nnen wir Spezialisten miteinander in Kontakt bringen und Ideen &#xFC;ber Grenzen und Sprachbarrieren hinweg austauschen?</p>
+
+            <div class="mobileImgCtlr text-center my-5">
+                <img src="./images/10_Archeo-Forum.png" alt="ArcheoPublication" class="img-fluid">
+            </div>
+
+            <div class="btnControler text-center">
+                <a href="de/archeo-forum.html" class="btn commonBtn commonBtnSecond mt-5" role="button">Mehr erfahren</a>
+            </div>
+            <a class="d-flex align-items-center arrowTxt justify-content-center mt-5" href="de/archeo-forum.html">ArcheoBase als L&#xF6;sung f&#xFC;r den Aufbau von Netzwerken mehrsprachiger Spezialisten. <i class="fa fa-chevron-circle-right"></i></a>
+        </div>
+    </section>
+
+    <!-- ArcheoArchive -->
+    <section id="ArcheoArchive">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <div class="archoContentCtrl text-start">
+                        <img src="./images/Archeo-View-V2.png" alt="archoEntry" class="img-fluid">
+                        <a class="d-flex align-items-center arrowTxt justify-content-center mt-5" href="de/archeo-archiv.html"> ArcheoBase als L&#xF6;sung f&#xFC;r die Verbreitung von Informationen<i class="fa fa-chevron-circle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex align-items-center mt-5 mt-md-0">
+                    <div class="archoTextCtrl">
+                        <h2 class="sectionTitle">Archeo <span>Archiv</span></h2>
+                        <p class="secSubTitle">360&#xB0;-Klassifizierung und Suche von Informationen</p>
+                        <p class="sectionText">Wie finden Sie Informationen in Archiven in verschiedenen Formaten (pdf, xls, doc etc.) schnell wieder?
+                        </p>
+
+                        <a href="de/archeo-archiv.html" class="btn commonBtn mt-5" role="button">Mehr erfahren</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ArcheoBase -->
+    <section id="ArcheoBase">
+        <div class="container">
+            <h2 class="sectionTitle pb-5 text-light text-center"> ArcheoBase:<br> Innovativ, zuverlässig und auf dem neuesten Stand der Technik.</h2>
+            <p class="sectionText">ArcheoBase wurde von einem Schweizer Computeringenieur und einem Statistikanalytiker konzipiert und stellt Innovation in den Vordergrund. Das Ziel der Lösung ist, die neusten IT-Tools für die Archäologie nutzbar zu machen, um so die Arbeit von Archäologen zu erleichtern und zu fördern.</p>
+
+            <div class="archeobaseCards pt-5 mt-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/12_Security.png" class="img-fluid" alt="check">
+                            <div class="card-body">
+                                <h5 class="card-title">Fachwissen und Sicherheit eines Schweizer Unternehmens</h5>
+                                <p class="card-text">Wir vereinen die modernsten technischen und ingenieurtechnischen F&#xE4;higkeiten, um die richtigen L&#xF6;sungen f&#xFC;r die anspruchsvollsten Probleme zu entwickeln. Die Erfassung und Verarbeitung von &#x201E;Big Data&#x201C;, Skalierbarkeit, statistische Analysen, maschinelles Lernen und neuronale Netze sind unser t&#xE4;glich Brot. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/13_Price.png" class="img-fluid" alt="price">
+                            <div class="card-body">
+                                <h5 class="card-title">G&#xFC;nstige Preise</h5>
+                                <p class="card-text">In der Arch&#xE4;ologie sind die Budgets oft begrenzt. Eine gro&#xDF;e Anzahl von Nutzern zu erreichen, erm&#xF6;glicht es, fortschrittliche technologische Dienstleistungen, die normalerweise sehr teuer sind, zu sehr niedrigen Preisen anzubieten.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/14_Development.png" class="img-fluid" alt="development">
+                            <div class="card-body">
+                                <h5 class="card-title">Kontinuierliche Entwicklung</h5>
+                                <p class="card-text">Gemeinsam mit professionellen Archäologen passen wir ArcheoBase kontinuierlich an, um Ihren Bedürfnissen und Erwartungen gerecht zu werden. Wir sind offen für neue Entwicklungsvorschläge, um die Probleme zu lösen, denen Archäologen in allen Ländern begegnen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="cardsHr">
+
+            <div class="threeMonthTrial">
+                <div class="buttonAndTextCtrl d-md-flex align-items-center justify-content-between">
+                    <h2 style="max-width:900px" class="trialTitle">
+                        Erhalten Sie jetzt einen viermonatigen <a href="de/kontakt.html">kostenlosen</a> Zugang zu ArcheoBase.
+                    </h2>
+                    <a href="de/kontakt.html" class="btn commonBtn commonBtnSecond mt-5" role="button">Kontaktieren Sie uns</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- Footer -->
+    <section id="curveBGWithFooter">
+        <h2 class="sectionTitle d-none"></h2>
+            <div class="container">
+                <div class="footerContent">
+                    <div class="row">
+                        <div class="col-md-4 footerLinks">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="de/preis.html">Preise</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="de/kontakt.html">Kontakt</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="de/rechtsvermerk.html">Rechtshinweise</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 text-md-center footerLogo">
+                            <img src="./images/archeobase_ic_org.svg" alt="logo" class="img-fluid">
+                        </div>
+                    <div class="col-md-4 text-md-end">
+                        <p class="copyright">© AnalyticBase Sàrl 2024 - All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts     -->
+    <script type="text/javascript">
+    var contact_page_url = "contact.html";
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="./scripts/master.js" crossorigin="anonymous"></script>
+    <script src="./scripts/videojs.js" type="text/javascript"></script>
+
+        </main>
+    </div>
+ 
+</body>
+</html>

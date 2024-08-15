@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Ogni utente di Archeobase ha il proprio account e vi accede con la propria e-mail e password da qualsiasi browser web (computer, tablet, smartphone). Gli accessi sono quindi individualizzati."
+    />
+    <title>Prezzo</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../images/01_FavIcon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap and CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <!-- JQuery Script -->
+    <script src="../scripts/jQuery.js"></script>
+
+    <!-- Alternate links Links -->
+    <link rel="alternate" hreflang="fr" href="index.html" />
+    <link rel="alternate" hreflang="de" href="de.html" />
+    <link rel="alternate" hreflang="es" href="es.html" />
+    <link rel="alternate" hreflang="it" href="it.html" />
+    <link rel="alternate" hreflang="en" href="en.html" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../it.html">
+              <img
+                src="../images/archeobase_ic_org.svg"
+                style="width: 228px"
+                alt="logo"
+                class="img-fluid"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-x-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"
+                />
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../it.html">Iniziale</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownSolution"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Soluzioni</a
+                  >
+                  <ul
+                    class="dropdown-menu text-center"
+                    id="menu_solution"
+                    style="width: auto !important"
+                    aria-labelledby="navbarDropdownSolution"
+                  >
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/it/archeo-ingresso.html"
+                        >Archeo Ingresso</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/it/archeo-analisi.html"
+                        >Archeo Analisi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/it/pubblicazione-archeo.html"
+                        >Archeo Pubblicazione</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/it/vista-archeo.html"
+                        >Archeo Vista</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/it/archeo-forum.html"
+                        >Archeo Forum</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/it/archivio-archeo.html"
+                        >Archeo Archivio</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="prezzo.html">Prezzo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contatto.html">Contatto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    IT
+                  </a>
+                  <ul
+                    class="dropdown-menu text-center"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li><a class="dropdown-item" href="../prix.html">FR</a></li>
+                    <li>
+                      <a class="dropdown-item" href="../de/preis.html">DE</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../en/price.html">EN</a>
+                    </li>
+                    <li><a class="dropdown-item" href="prezzo.html">IT</a></li>
+                    <li>
+                      <a class="dropdown-item" href="../es/precio.html">ES</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <div class="d-flex">
+                <button class="btn loginBtn" type="button">login</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Navbar Ends Here -->
+    <div>
+      <main role="main" class="pb-3">
+        <div class="container formsContainer">
+          <h1 class="main_price_title">Accesso individuale</h1>
+          <div class="price_row innerContent" style="text-align: justify">
+            <div class="price_column sectionText">
+              <div class="rpadtext">
+                <p>
+                  Ogni utente di Archeobase ha il proprio account e vi accede
+                  con la propria e-mail e password da qualsiasi browser web
+                  (computer, tablet, smartphone). Gli accessi sono quindi
+                  individualizzati.
+                </p>
+                <p>
+                  Tutti i dati sono collegati alla persona che li inserisce. Ciò
+                  permette di garantire la tracciabilità delle aggiunte e delle
+                  modifiche. Inoltre, la visualizzazione dei dati e delle
+                  tabelle è completamente configurabile in base alle esigenze di
+                  ogni utente.
+                </p>
+              </div>
+            </div>
+            <div class="price_column sectionText">
+              <div class="rpadtext">
+                <p>
+                  Le istituzioni acquistano accessi individuali e li
+                  distribuiscono ai loro dipendenti che possono accedere a tutti
+                  gli interventi dell'istituzione. I vari diritti (lettura,
+                  scrittura, elaborazione di moduli, configurazione del sito,
+                  ecc.) sono assegnabili a livello individuale e interamente
+                  configurabili dall'amministratore dell'istituzione.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="price_container" class="innerContent">
+            <div class="sectionText" style="text-align: center">
+              <div class="price_box">
+                <div class="price_box_inner">
+                  <div>
+                    <div>
+                      <div>ABBONAMENTO</div>
+                      <div class="abo_info">
+                        ARCHEOBASE: VIEW - ENTRY - ANALYSIS
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price_container">
+                    <div class="currency">CHF</div>
+                    <div class="price">19.-</div>
+                  </div>
+                  <div class="abo_detail">
+                    <div>
+                      <div>Prezzo mensile per utente</div>
+                      <div>Impegno annuale</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottom_price">1 a 6 collaboratori</div>
+              </div>
+
+              <div class="price_box">
+                <div class="price_box_inner">
+                  <div>
+                    <div>
+                      <div>ABBONAMENTO</div>
+                      <div class="abo_info">
+                        ARCHEOBASE: VIEW - ENTRY - ANALYSIS
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price_container">
+                    <div class="currency">CHF</div>
+                    <div class="price">18.-</div>
+                  </div>
+                  <div class="abo_detail">
+                    <div>
+                      <div>Prezzo mensile per utente</div>
+                      <div>Impegno annuale</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottom_price">7 a 14 collaboratori</div>
+              </div>
+
+              <div class="price_box">
+                <div class="price_box_inner">
+                  <div>
+                    <div>
+                      <div>ABBONAMENTO</div>
+                      <div class="abo_info">
+                        ARCHEOBASE: VIEW - ENTRY - ANALYSIS
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price_container">
+                    <div class="currency">CHF</div>
+                    <div class="price">17.-</div>
+                  </div>
+                  <div class="abo_detail">
+                    <div>
+                      <div>Prezzo mensile per utente</div>
+                      <div>Impegno annuale</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottom_price">15 a 50 collaboratori</div>
+              </div>
+
+              <div class="price_box">
+                <div class="price_box_inner">
+                  <div>
+                    <div>
+                      <div>ABBONAMENTO</div>
+                      <div class="abo_info">
+                        ARCHEOBASE: VIEW - ENTRY - ANALYSIS
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price_container">
+                    <div class="currency">CHF</div>
+                    <div class="price">16.-</div>
+                  </div>
+                  <div class="abo_detail">
+                    <div>
+                      <div>Prezzo mensile per utente</div>
+                      <div>Impegno annuale</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottom_price">51 a 100 collaboratori</div>
+              </div>
+
+              <div class="price_box">
+                <div class="price_box_inner">
+                  <div>
+                    <div>
+                      <div>ABBONAMENTO</div>
+                      <div class="abo_info">
+                        ARCHEOBASE: VIEW - ENTRY - ANALYSIS
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price_container">
+                    <div class="currency">CHF</div>
+                    <div class="price">15.-</div>
+                  </div>
+                  <div class="abo_detail">
+                    <div>
+                      <div>Prezzo mensile per utente</div>
+                      <div>Impegno annuale</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottom_price">> 100 collaboratori</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="price_row innerContent">
+            <div id="included_individual_price" class="price_column">
+              <h2>Compreso in un accesso individuale</h2>
+              <div class="sectionText">
+                <div>
+                  <div class="subTitlePrice">
+                    <i class="check fa fa-check"></i>Archiviazione di foto e
+                    documenti
+                  </div>
+                  <p>
+                    Il titolare dell'accesso individuale dispone gratuitamente
+                    di uno spazio di archiviazione di 10 GB di dati. Questo
+                    rappresenta circa 2000 foto (di medie dimensioni, 5MB)
+                  </p>
+                </div>
+                <div>
+                  <div class="subTitlePrice">
+                    <i class="check fa fa-check"></i>Sovrapposizione ortofoto
+                  </div>
+                  <p>
+                    Le ortofoto, per poter essere visualizzate automaticamente
+                    sulla mappa in versione web, devono essere pubblicate. La
+                    sovrapposizione delle prime cinque ortofoto per un utente è
+                    gratuita.
+                  </p>
+                </div>
+                <div>
+                  <div class="subTitlePrice">
+                    <i class="check fa fa-check"></i>Modulo di esportazione
+                  </div>
+                  <p>
+                    L'esportazione dei dati in formato Excel o Shapefile è
+                    integrata. Ciò facilita il passaggio tra diversi programmi,
+                    se necessario.
+                  </p>
+                </div>
+                <p>
+                  <strong>Per le istituzioni:</strong> lo spazio di
+                  archiviazione e le capacità di sovrapposizione corrispondono
+                  alla somma totale offerta dai singoli accessi dei loro membri.
+                </p>
+              </div>
+            </div>
+            <div class="price_column" id="small_price">
+              <h2>Bassi costi aggiuntivi per l&#x27;uso intensivo</h2>
+              <div class="sectionText">
+                <p>
+                  L&#x27;utente paga solo lo spazio di archiviazione che
+                  utilizza in aggiunta alle quantit&#xE0; offerte in un accesso
+                  individuale. Viene calcolato un conteggio mensile delle
+                  quantit&#xE0;.
+                </p>
+                <div class="subTitlePrice">
+                  Archiviazione di foto e documenti aggiuntivi
+                </div>
+                <p>0.03 CHF per GB (circa 200 foto)</p>
+                <div class="subTitlePrice">Sovrapposizione supplementare</div>
+                <p>
+                  Il costo della sovrapposiione ammonta a CHF 0.008. - per MB, e
+                  quindi circa CHF 0.15. - per un&#x27;ortofoto di 20MB di
+                  dimensioni.
+                </p>
+                <p>
+                  <strong>Per le istituzioni</strong>: Per facilitare la
+                  fatturazione annuale, il provisioning annuale è possibile
+                  annunciando un'approssimazione dello spazio di archiviazione
+                  necessario e le esigenze di capacità di sovrapposizione.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="example_computation" class="innerContent">
+            <h2 style="font-size: 28px">Esempio di calcolo mensile</h2>
+            <div class="sectionText">
+              <p>
+                Un'istituzione ha dieci dipendenti e ha 50 siti archeologici su
+                ArcheoBase. Ogni sito ha 1000 foto (dimensioni medie di una
+                foto, 5MB per l'esempio).
+              </p>
+              <div style="text-decoration: underline">
+                Costo globale mensile:
+              </div>
+              <p>
+                - Prezzo dei singoli accessi: 10 * 18 = CHF 180.- <br />
+                - Quantità di foto: 50 siti * 1000 foto = 50'000 foto <br />
+                - Dimensioni di archiviazione delle foto: 50'000 * 5 MB = 250 GB
+                <br />
+                <br />
+                Archiviazione gratuita inclusa nei singoli accessi:<br />
+                - 10 dipendenti * 10 GB = 100 GB<br />
+                <br />
+                Costo finale di archiviazione<br />
+                - Differenza: 250 GB - 100 GB = 150 GB<br />
+                - Costo mensile di archiviazione: 150 GB * 0.03 = CHF 4.50<br />
+                <br />
+                Costo totale mensile:<br />
+                180 + 4.50 = <strong>CHF 184.50</strong>
+              </p>
+            </div>
+          </div>
+
+          <div class="innerContent">
+            <h2
+              style="text-align: center; font-size: 32px; margin-bottom: 36px"
+            >
+              Componenti aggiuntivi / funzionalit&#xE0;
+            </h2>
+            <div class="price_row">
+              <div class="sectionText price_column rpadright">
+                <div class="subTitlePrice">Modulo ArcheoForum</div>
+                <p>
+                  Aggiunto all'accesso individuale di base
+                  (ArcheoView-ArcheoEntry-ArcheoAnalysis), il prezzo del modulo
+                  è di CHF 4.- extra, mensili. Se il numero di accessi
+                  individuali dovesse superare i 62, il prezzo mensile massimo
+                  del modulo ArcheoForum sarà di CHF 250. - per istituzione.
+                  <br /><br />
+                  Per gli utenti che non dispongono di un accesso individuale di
+                  base e che desiderano utilizzare il modulo ArcheoForum in modo
+                  indipendente, il prezzo del modulo rimane identico, cioè CHF
+                  4.- al mese.
+                </p>
+                <div class="subTitlePrice">
+                  Funzionalit&#xE0; di importazione dei dati ed esportazione di
+                  backup
+                </div>
+                <p>
+                  Alcune istituzioni desiderano essere in grado di importare i
+                  dati su ArcheoEntry o di esportarli in massa da ArcheoEntry a
+                  un altro sistema o server per scopi di backup giornalieri,
+                  settimanali o mensili. <br /><br />Aggiunto all'accesso
+                  individuale di base (ArcheoView-ArcheoEntry-ArcheoAnalysis),
+                  il prezzo di questa funzionalità è di CHF 4.- extra, mensili.
+                  Se il numero di accessi individuali dovesse superare i 62, il
+                  prezzo mensile massimo di questa funzionalità sarà di CHF 250.
+                  - per istituzione.
+                </p>
+              </div>
+              <div class="sectionText price_column rpadleft">
+                <div class="subTitlePrice">Accesso giornaliero prepagato</div>
+                <p>
+                  Gli accessi giornalieri prepagati offrono la flessibilità
+                  necessaria per poter disporre di un accesso individuale alla
+                  giornata, ad esempio per una persona esterna che viene in un
+                  cantiere per alcuni giorni. <br /><br />
+                  Il prezzo di un accesso giornaliero prepagato è di CHF 3.- al
+                  giorno. Questo tipo di accesso giornaliero è riservato al
+                  personale temporaneo che lavora nell'istituzione per un
+                  periodo inferiore a sei mesi nell'anno in corso.<br /><br />L'amministratore
+                  registra la persona in ArcheoBase e le assegna lo status di
+                  "personale temporaneo". Il costo viene quindi calcolato
+                  automaticamente in base al numero di giorni in cui l'utente
+                  accede all'applicazione.<br /><br />L'amministratore può
+                  cambiare questo account "personale temporaneo" in un account
+                  "personale permanente" in qualsiasi momento, per beneficiare
+                  del prezzo vantaggioso dell'accesso individuale con impegno
+                  annuale.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div style="font-size: 31px; text-align: center; margin-top: 100px">
+            Prova gratuitamente l&#x27;app?
+            <div style="margin-top: 25px">
+              <button class="btn commonBtn commonBtnSecond free_test">
+                Ottenere una prova di 4 mesi
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <section id="curveBGWithFooter">
+          <h2 class="sectionTitle d-none"></h2>
+          <div class="container">
+            <div class="footerContent">
+              <div class="row">
+                <div class="col-md-4 footerLinks">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="prezzo.html">Prezzo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contatto.html">Contatto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="avviso-legale.html"
+                        >Avvisi legali</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4 text-md-center footerLogo">
+                  <img
+                    src="../images/archeobase_ic_org.svg"
+                    alt="logo"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-md-4 text-md-end">
+                  <p class="copyright">
+                    © AnalyticBase Sàrl 2024 - All Rights Reserved
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scripts -->
+        <script type="text/javascript">
+          var contact_page_url = "../it/contatto.html";
+        </script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+          integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+          integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+          crossorigin="anonymous"
+        ></script>
+        <script src="../scripts/master.js"></script>
+        <script src="../scripts/videojs.js" type="text/javascript"></script>
+      </main>
+    </div>
+  </body>
+</html>

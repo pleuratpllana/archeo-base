@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Analytical valuation of the information entered"
+    />
+    <meta
+      name="description"
+      content="Many archeologists feel a need for better promotion and enhancement of archeological heritage.This need goes far beyond the world of archeology and also includes  tourism and education sectors."
+    />
+    <title>Archeo View</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../images/01_FavIcon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap and CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <!-- JQuery Script -->
+    <script src="../scripts/jQuery.js" crossorigin="anonymous"></script>
+
+    <!-- Alternate links Links -->
+    <link rel="alternate" hreflang="fr" href="../archeo-vue.html" />
+    <link rel="alternate" hreflang="de" href="../de/archeo-ansicht.html" />
+    <link rel="alternate" hreflang="es" href="../es/vista-archeo.html" />
+    <link rel="alternate" hreflang="it" href="../it/vista-archeo.html" />
+    <link rel="alternate" hreflang="en" href="archeo-view.html" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../en.html">
+              <img
+                src="../images/archeobase_ic_org.svg"
+                style="width: 228px"
+                alt="logo"
+                class="img-fluid"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-x-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"
+                />
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../en.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownSolution"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Solutions</a
+                  >
+                  <ul
+                    class="dropdown-menu text-center"
+                    id="menu_solution"
+                    style="width: auto !important"
+                    aria-labelledby="navbarDropdownSolution"
+                  >
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="archeo-entry.html"
+                        >Archeo Entry</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="archeo-analysis.html"
+                        >Archeo Analysis</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="archeo-publication.html"
+                        >Archeo Publication</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="archeo-view.html"
+                        >Archeo View</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="archeo-forum.html"
+                        >Archeo Forum</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="archeo-archive.html"
+                        >Archeo Archive</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="price.html">Price</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    EN
+                  </a>
+                  <ul
+                    class="dropdown-menu text-center"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="../archeo-vue.html">FR</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../de/archeo-ansicht.html"
+                        >DE</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="archeo-view.html">EN</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../it/vista-archeo.html"
+                        >IT</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../es/vista-archeo.html"
+                        >ES</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <div class="d-flex">
+                <button class="btn loginBtn" type="button">login</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div>
+      <main role="main" class="pb-3">
+        <div class="in_dev">
+          <div>
+            Archeo View is under development. Please let us know if you have
+            specific needs or questions.<a
+              style="margin-left: 10px"
+              href="contact.html"
+              >Contact</a
+            >
+          </div>
+          <!-- <div style="font-size:14px; font-style:italic"> Project in progress with HEIG-VD, Instituts INSIT (Institute of Territorial Engineering) &amp; MEI (Media Engineering Institute)</div>-->
+        </div>
+
+        <!-- Page Banner-->
+        <section id="pageHeadingBanner">
+          <div class="avPageBanner">
+            <div class="container">
+              <div class="row justify-content-lg-end">
+                <div class="col-lg-5 pageHeadingContentCtrl">
+                  <h2 class="sectionTitle">Archeo View</h2>
+                  <p class="subTitle mt-0">
+                    Promotion of archeological heritage
+                  </p>
+                  <!-- <p class="subText mt-5">Ongoing project with HEIG-VD, INSIT Institutes (Institute of Territorial Engineering) &amp; MEI (Media Engineering Institute)</p> -->
+                  <div class="containerBox">
+                    <p class="sectionText">
+                      Many archeologists feel a need for better promotion and
+                      enhancement of archeological heritage.<br />This need goes
+                      far beyond the world of archeology and also includes
+                      tourism and education sectors.
+                    </p>
+                  </div>
+                </div>
+                <hr class="PageHeadingDivider" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Awareness of the Past and Protection of Archaeological Sites-->
+        <section id="awarenessOfThePast">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-5 align-items-center mt-3">
+                <div class="awarenessTextCtrl">
+                  <img
+                    src="../images/45_Protection.png"
+                    class="featuredIcon mb-4"
+                    alt="protection"
+                  />
+                  <h2 class="sectionTitle">
+                    Awareness of the past and protection of archeological sites
+                  </h2>
+                </div>
+              </div>
+              <div class="col-md-5 offset-md-2">
+                <div class="awarenessCtrl align-items-center">
+                  <img
+                    src="../images/46_ProtectionImage.jpg"
+                    class="img-fluid"
+                    alt="mobile"
+                  />
+                </div>
+              </div>
+              <p class="sectionText mt-5">
+                Many ruins are scattered throughout our territory. The visitor
+                will be able, with the help of the ArcheoView application in
+                free access and his mobile phone, to learn about the history of
+                the sites opening in front of him. <br />
+                The official authorities (e.g. cantonal archaeology) will be
+                able to decide on the choice of sites to be presented on the
+                application. Sites that have already been published could be
+                published, while sensitive or excavated sites could be
+                excluded..
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Immersion in History With the Use of the Latest Technologies-->
+        <section id="immersionHistory">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="topContent text-center">
+                <img
+                  src="../images/47_Immersion.png"
+                  class="featuredIcon mb-5"
+                  alt="immersion"
+                />
+                <h2 class="sectionTitle">
+                  Immersion in history with the use of the latest technologies
+                </h2>
+              </div>
+
+              <div class="col-md-5 align-items-center">
+                <div class="immersionCtrl">
+                  <img
+                    src="../images/48_MobileApp.jpg"
+                    class="img-fluid"
+                    alt="mobile"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-5 offset-md-2">
+                <div class="immersionCtrl">
+                  <div class="onMap">
+                    <h4 class="appFeature mb-3">On map</h4>
+                    <p class="sectionText my-0">
+                      At the macro level, ArcheoView will allow a spatial
+                      visualization of all points of archeological interest in a
+                      given region, nationally and internationally.
+                    </p>
+                    <p class="sectionText my-0">
+                      A search engine will allow you to select specific sites,
+                      such as all the castles of the 11th century or all the
+                      archeological walks, etc.
+                    </p>
+                  </div>
+                  <div class="onArcheologicalSite">
+                    <h4 class="appFeature mb-3">On the archaeological site</h4>
+                    <p class="sectionText my-0">
+                      On a micro scale, that of the archeological site itself, a
+                      multidimensional visualization will improve the level of
+                      understanding of the visitor diving into the past.
+                    </p>
+                    <p class="sectionText my-0">
+                      This visualization will be accompanied by text to satisfy
+                      the most demanding visitors.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Participate, Enter and Validate -->
+        <section id="participateEnterValidate">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-5">
+                <div class="awarenessTextCtrl">
+                  <img
+                    src="../images/49_Participate.png"
+                    class="featuredIcon mb-4"
+                    alt="participate"
+                  />
+                  <h2 class="sectionTitle">Participate, enter and validate</h2>
+                  <p class="sectionText">
+                    The ArcheoView module will be free of charge and available
+                    to any public on the Internet. ArcheoView is based on three
+                    pillars
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-5 offset-md-2">
+                <div class="participateCtrl">
+                  <ul>
+                    <li>Citizen Science</li>
+                    <p class="listText py-3">
+                      Use the potential of collaborative science to populate the
+                      database by allowing archeology students or passionate
+                      people to introduce the results of their research related
+                      to the different sites
+                    </p>
+                    <li>Easy to capture</li>
+                    <p class="listText py-3">
+                      Facilitate the capture of site information (topographic
+                      points, description sheet, photos, 3D), the display of
+                      maps, suggestions for archeological walks, etc.
+                    </p>
+                    <li>Validation by professionals</li>
+                    <p class="listText py-3">
+                      Validate the input data by professionals, for example by
+                      obtaining the approval of cantonal archeologies.
+                    </p>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top: 59px; text-align: center">
+              <h4 class="subTitle" style="color: white; font-size: 17px">
+                Would you like to be part of such a project?
+              </h4>
+              <a
+                href="contact.html"
+                class="btn commonBtn commonBtnSecond"
+                role="button"
+                style="margin-top: 20px"
+                >Participate in ArcheoView</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Benefits for ArcheoBase Users -->
+        <section id="benefitsForUsers">
+          <div class="container">
+            <div class="row">
+              <div class="topContent text-lg-center text-sm-left">
+                <img
+                  src="../images/51_Benefits.png"
+                  class="featuredIcon mb-5"
+                  alt="benefits"
+                />
+                <h2 class="sectionTitle mb-0">Benefits for ArcheoBase users</h2>
+                <p class="sectionText mt-0">
+                  A person or institution already using the ArcheoEntry and
+                  ArcheoAnalysis modules will be able to easily make available
+                  in ArcheoView the data (photos, maps, etc.) of an
+                  archeological site that they wish to share with the public.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="curveBGWithFooter">
+          <h2 class="sectionTitle d-none"></h2>
+          <div class="container">
+            <div class="footerContent">
+              <div class="row">
+                <div class="col-md-4 footerLinks">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/en/price.html">Price</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/en/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/en/legal-statement.html"
+                        >Legal mentions</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4 text-md-center footerLogo">
+                  <img
+                    src="../images/archeobase_ic_org.svg"
+                    alt="logo"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-md-4 text-md-end">
+                  <p class="copyright">
+                    © AnalyticBase Sàrl 2024 - All Rights Reserved
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scripts     -->
+        <script type="text/javascript">
+          var contact_page_url = "contact.html";
+        </script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+          integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+          integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+          crossorigin="anonymous"
+        ></script>
+        <script src="../scripts/master.js" crossorigin="anonymous"></script>
+        <script src="../scripts/videojs.js" type="text/javascript"></script>
+      </main>
+    </div>
+  </body>
+</html>

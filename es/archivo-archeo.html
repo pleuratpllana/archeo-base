@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="ArcheoArchives se distingue por su capacidad para encontrar informaci&#xF3;n dentro de una cantidad significativa de documentos de archivo, guardados en varios formatos.La conversi&#xF3;n autom&#xE1;tica de formatos de archivo garantiza la durabilidad digital de los datos."
+    />
+    <title>Archeo Foro</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../images/01_FavIcon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap and CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <!-- JQuery Script -->
+    <script src="../scripts/jQuery.js" crossorigin="anonymous"></script>
+
+    <!-- Alternate links Links -->
+    <link rel="alternate" hreflang="fr" href="../archeo-archive.html" />
+    <link rel="alternate" hreflang="de" href="../de/archeo-archiv.html" />
+    <link rel="alternate" hreflang="es" href="archivo-archeo.html" />
+    <link rel="alternate" hreflang="it" href="../it/archivio-archeo.html" />
+    <link rel="alternate" hreflang="en" href="../en/archeo-archive.html" />
+  </head>
+  <body>
+    <!-- Navbar Starts Here -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../es.html">
+              <img
+                src="../images/archeobase_ic_org.svg"
+                style="width: 228px"
+                alt="logo"
+                class="img-fluid"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-x-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"
+                />
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../es.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownSolution"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Soluciones</a
+                  >
+                  <ul
+                    class="dropdown-menu text-center"
+                    id="menu_solution"
+                    style="width: auto !important"
+                    aria-labelledby="navbarDropdownSolution"
+                  >
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/entrada-de-archeo.html"
+                        >Entrada de Archeo</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/archeo-análisis.html"
+                        >Análisis de Archeo</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/publicación-de-archeo.html"
+                        >Publicación de Archeo</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/vista-archeo.html"
+                        >Vista de Archeo</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/archeo-foro.html"
+                        >Foro de Archeo</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        style="padding: 10px"
+                        class="dropdown-item"
+                        href="/es/archivo-archeo.html"
+                        >Archivo de Archeo</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="precio.html">Precio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    ES
+                  </a>
+                  <ul
+                    class="dropdown-menu text-center"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="../archeo-archive.html"
+                        >FR</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../de/archeo-archiv.html"
+                        >DE</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../en/archeo-archive.html"
+                        >EN</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../it/archivio-archeo.html"
+                        >IT</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="archivo-archeo.html">ES</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <div class="d-flex">
+                <button class="btn loginBtn" type="button">login</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Navbar Ends Here -->
+    <div>
+      <main role="main" class="pb-3">
+        <div class="in_dev">
+          Archeo Archive est&#xE1; actualmente en desarrollo. Por favor,
+          h&#xE1;ganos saber si tiene necesidades o preguntas
+          espec&#xED;ficas.<a style="margin-left: 10px" href="contacto.html"
+            >Contacto</a
+          >
+        </div>
+
+        <!-- Page Banner Starts Here -->
+        <section id="pageHeadingBanner">
+          <div class="archeoArchPageBanner">
+            <div class="container">
+              <div class="row justify-content-lg-end">
+                <div class="col-lg-5 pageHeadingContentCtrl">
+                  <h2 class="sectionTitle">Archivo de Archeo</h2>
+                  <p class="subTitle">
+                    Durabilidad de los documentos digitales e investigación 360°
+                  </p>
+                  <div class="containerBox">
+                    <p class="sectionText">
+                      ArcheoArchives se distingue por su capacidad para
+                      encontrar información dentro de una cantidad significativa
+                      de documentos de archivo, guardados en varios formatos.<br /><br />La
+                      conversión automática de formatos de archivo garantiza la
+                      durabilidad digital de los datos.
+                    </p>
+                  </div>
+                </div>
+                <hr class="PageHeadingDivider" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Organization of Documents-->
+        <section id="organizationOfDocs">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-5">
+                <div class="organizationCtrl">
+                  <img
+                    src="../images/files_office.jpg"
+                    class="img-fluid"
+                    alt="organized-documents"
+                  />
+                </div>
+              </div>
+              <div class="col-md-5 offset-md-2">
+                <div class="organizationTextCtrl">
+                  <img
+                    src="../images/79_Documents.png"
+                    class="featuredIcon mb-4"
+                    alt="organized-docs-icon"
+                  />
+                  <h2 class="sectionTitle">Digitalización de los documentos</h2>
+                  <p class="sectionText">
+                    La digitalización de documentos permite almacenar datos de
+                    forma desmaterializada, para facilitar el acceso a los
+                    mismos y sobre todo para explotar todo su potencial.<br /><br />El
+                    contenido de los informes mecanografiados digitalizados
+                    puede ser fácilmente leído y explotado por herramientas
+                    analíticas. ArcheoArchive permitirá redescubrir información
+                    oculta y vincularla a otra información.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Digital Durability of Data-->
+        <section id="digitalDurability">
+          <div class="container">
+            <div class="row flex-column-reverse flex-md-row align-items-center">
+              <div class="col-md-5 align-items-center mt-3">
+                <div class="digitalTextCtrl">
+                  <img
+                    src="../images/81_Converted-Docs.png"
+                    class="featuredIcon mb-4"
+                    alt="converted-documents"
+                  />
+                  <h2 class="sectionTitle">Durabilidad digital de los datos</h2>
+                  <p class="sectionText">
+                    Los archivos requieren la durabilidad de los formatos
+                    electrónicos en el tiempo. Las actualizaciones periódicas de
+                    los formatos de archivo son necesarias para garantizar su
+                    legibilidad a largo plazo.<br /><br />El módulo
+                    ArcheoArchive actualizará automáticamente los formatos de
+                    archivo, para garantizar que los documentos publicados en
+                    formatos más antiguos se puedan buscar con el tiempo.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-5 col-sm-order-1 offset-md-2">
+                <div class="digitalCtrl align-items-center">
+                  <img
+                    src="../images/80_Docs-Conversion.jpg"
+                    class="img-fluid"
+                    alt="document-conversion"
+                    style="max-width: 342px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 360° coverage: Multiformat & Multilingual Search Tool -->
+        <section id="Coverage">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-5">
+                <div class="360CoverageCtrl">
+                  <img
+                    src="../images/magnifiying_glass.jpg"
+                    class="img-fluid"
+                    alt="hand-360"
+                  />
+                </div>
+              </div>
+              <div class="col-md-5 offset-md-2">
+                <div class="CoverageTextCtrl">
+                  <img
+                    src="../images/82_360degrees.png"
+                    class="featuredIcon mb-4"
+                    alt="360-degrees"
+                  />
+                  <h2 class="sectionTitle">
+                    Cobertura 360°: herramienta de búsqueda multiformato y
+                    multilingüe
+                  </h2>
+                  <p class="sectionText">
+                    Para poder adaptar mejor el módulo ArcheoArchives a las
+                    necesidades de la arqueología, nos gustaría recopilar aún
+                    más información relacionada con los problemas inherentes a
+                    la gestión de archivos dentro de sus instituciones.<br /><br />No
+                    dudes en comunicárnoslo poniéndote en contacto con nosotros.
+                    Esto nos permitirá encontrar soluciones innovadoras para
+                    mejorar el servicio.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Development Needs -->
+        <section id="developmentNeeds">
+          <div class="container">
+            <div class="row flex-column-reverse flex-md-row align-items-center">
+              <div class="col-md-5 align-items-center mt-3">
+                <div class="developmentTextCtrl">
+                  <img
+                    src="../images/84_Demands.png"
+                    class="featuredIcon mb-4"
+                    alt="market-demands"
+                  />
+                  <h2 class="sectionTitle">Necesidades de desarrollo</h2>
+                  <p class="sectionText">
+                    Para poder adaptar mejor el módulo ArcheoArchives a las
+                    necesidades de la arqueología, nos gustaría recopilar aún
+                    más información relacionada con los problemas inherentes a
+                    la gestión de archivos dentro de sus instituciones.<br /><br />No
+                    dudes en comunicárnoslo poniéndote en contacto con nosotros.
+                    Esto nos permitirá encontrar soluciones innovadoras para
+                    mejorar el servicio.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-5 col-sm-order-1 offset-md-2">
+                <div class="developmentCtrl align-items-center">
+                  <img
+                    style="max-width: 300px"
+                    src="../images/collaboration.jpg"
+                    class="img-fluid"
+                    alt="development-needs"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="curveBGWithFooter">
+          <h2 class="sectionTitle d-none"></h2>
+          <div class="container">
+            <div class="footerContent">
+              <div class="row">
+                <div class="col-md-4 footerLinks">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/es/precio.html">Precio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/es/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/es/aviso-legal.html"
+                        >Avisos legales</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4 text-md-center footerLogo">
+                  <img
+                    src="../images/archeobase_ic_org.svg"
+                    alt="logo"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-md-4 text-md-end">
+                  <p class="copyright">
+                    © AnalyticBase Sàrl 2024 - All Rights Reserved
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scripts     -->
+        <script type="text/javascript">
+          var contact_page_url = "contact.html";
+        </script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+          integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+          integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+          crossorigin="anonymous"
+        ></script>
+        <script src="../scripts/master.js" crossorigin="anonymous"></script>
+        <script src="../scripts/videojs.js" type="text/javascript"></script>
+      </main>
+    </div>
+  </body>
+</html>

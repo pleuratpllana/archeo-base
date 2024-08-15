@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Required meta tags -->
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Archeo Foro</title>
+
+  <!-- Favicon -->
+  <link
+    rel="shortcut icon"
+    href="../images/01_FavIcon.png"
+    type="image/x-icon"
+  />
+
+  <!-- Bootstrap and CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="../styles/main.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous"
+  />
+
+  <!-- JQuery Script -->
+  <script src="../scripts/jQuery.js" crossorigin="anonymous"></script>
+
+  <!-- Alternate links Links -->
+  <link rel="alternate" hreflang="fr" href="../archeo-forum.html" />
+  <link rel="alternate" hreflang="de" href="../de/archeo-forum.html" />
+  <link rel="alternate" hreflang="es" href="archeo-foro.html" />
+  <link
+    rel="alternate"
+    hreflang="it"
+    href="../it/archeo-forum.html"
+  />
+  <link rel="alternate" hreflang="en" href="../en/archeo-forum.html" />
+</head>
+<body>
+   <!-- Header -->
+        <header id="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../es.html">
+                            <img src="../images/archeobase_ic_org.svg" style="width:228px" alt="logo" class="img-fluid">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                              </svg>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../es.html">Inicio</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSolution" role="button" data-bs-toggle="dropdown" aria-expanded="false">Soluciones</a>
+                                    <ul
+                                    class="dropdown-menu text-center"
+                                    id="menu_solution"
+                                    style="width: auto !important"
+                                    aria-labelledby="navbarDropdownSolution"
+                                  >
+                                    <li>
+                                      <a
+                                        style="padding: 10px"
+                                        class="dropdown-item"
+                                        href="/es/entrada-de-archeo.html"
+                                        >Entrada de Archeo</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a
+                                        style="padding: 10px"
+                                        class="dropdown-item"
+                                        href="/es/archeo-análisis.html"
+                                        >Análisis de Archeo</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a
+                                        style="padding: 10px"
+                                        class="dropdown-item"
+                                        href="/es/publicación-de-archeo.html"
+                                        >Publicación de Archeo</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a
+                                        style="padding: 10px"
+                                        class="dropdown-item"
+                                        href="/es/vista-archeo.html"
+                                        >Vista de Archeo</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a
+                                        style="padding: 10px"
+                                        class="dropdown-item"
+                                        href="/es/archeo-foro.html"
+                                        >Foro de Archeo</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a
+                                        style="padding: 10px"
+                                        class="dropdown-item"
+                                        href="/es/archivo-archeo.html"
+                                        >Archivo de Archeo</a
+                                      >
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="precio.html">Precio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        ES
+                                    </a>
+                                    <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="../archeo-forum.html">FR</a></li>
+                                        <li><a class="dropdown-item" href="../de/archeo-forum.html">DE</a></li>
+                                        <li><a class="dropdown-item" href="../en/archeo-forum.html">EN</a></li>
+                                        <li><a class="dropdown-item" href="../it/archeo-forum.html">IT</a></li>
+                                        <li><a class="dropdown-item" href="archeo-foro.html">ES</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <div class="d-flex">
+                                <button class="btn loginBtn" type="button">login</button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    <div>
+        <main role="main" class="pb-3">
+            <div class="in_dev">Archeo Foro  est&#xE1; actualmente en desarrollo. Por favor, h&#xE1;ganos saber si tiene necesidades o preguntas espec&#xED;ficas.<a style="margin-left:10px;" href="contacto.html">Contacto</a></div> 
+<!-- Page Banner Starts Here -->
+    <section id="pageHeadingBanner">
+        <div class="afPageBanner">
+            <div class="container">
+                <div class="row justify-content-lg-end">
+                     <div class="col-lg-5 pageHeadingContentCtrl">
+                        <h2 class="sectionTitle">Archeo Foro</h2>
+                        <p class="subTitle">Plataforma de intercambio entre arque&#xF3;logos</p>
+                            <div class="containerBox">
+                            <p class="sectionText">ArcheoForum responde a las necesidades expresadas por los profesionales que desean comunicarse más fácilmente entre sí y contar con una plataforma de intercambio de alto rendimiento.<br>Permite el desarrollo de una red de especialistas que pueden ser consultados sobre temas específicos. Junto con una herramienta de búsqueda, esta plataforma también se transforma en una base de conocimientos.</p>
+                        </div>                    
+                    </div>
+                    <hr class="PageHeadingDivider">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discussion Platform for Work Groups -->    
+    <section id="discussionPlatform">
+      <div class="container">
+        <div class="row align-items-center">
+              <div class="col-md-5 align-items-center">
+                <div class="discussionCtrl">
+                  <img src="../images/66_DiscussionPlatform.jpg" class="img-fluid" alt="mobile">
+                </div>
+              </div>
+              <div class="col-md-5 offset-md-2">
+                <div class="discussionTextCtrl">
+                  <img src="../images/67_Discussion-Icon.png" class="featuredIcon mb-5" alt="immersion">
+                    <h2 class="sectionTitle">Plataforma de intercambio para grupos de trabajo</h2>
+                    <p class="sectionText my-0">ArcheoForum responde principalmente a las necesidades expresadas por profesionales que desean comunicarse entre sí y tener un medio complementario a los intercambios de correo electrónico tradicionales con listas de difusión.<br>ArcheoForum, por lo tanto, ofrece una plataforma de debate para que los intercambios puedan realizarse fácilmente dentro de grupos de trabajo y entre individuos. .<br>El objetivo es promover los intercambios, garantizar la confidencialidad (si es necesario) y poder encontrar fácilmente temas o elementos de discusión dispersos en decenas de miles de interacciones.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+     </section>
+ 
+    <!-- Availability of Multiple Analysis Tools -->
+     <section id="discussionLevels">
+        <div class="container">
+          <div class="row">                
+                <div class="discussionCtrl text-lg-center text-sm-left">
+                    <img src="../images/68_Discussion-Levels.png" class="featuredIcon mb-5" alt="adapted">
+                    <h2 class="sectionTitle">Niveles de discusión adaptados a cada necesidad</h2>
+                    <p class="sectionText">ArcheoForum implementa tres niveles de conversación, las privadas, las semipúblicas y las públicas.</p>
+                </div>
+               <div class="discussionChats mt-5">
+                    <div class="row">
+               			<div class="col-lg-4 align-items-center">
+                      <div class="chat">
+                      <img src="../images/69_Private-Chat.png" class="chatIcon mb-4" alt="private-chat">
+                      <h3 class="chatTitle">Discusión privada</h3>
+                      <p class="sectionText">Una conversación privada se caracteriza por la creación de un grupo restringido para conversar. El autor del grupo puede invitar a otros miembros de ArcheoBase o personas externas simplemente agregando su dirección de correo electrónico. Solo los miembros del grupo pueden acceder a su contenido. Este nivel de intercambio restringido puede ser útil, por ejemplo, para las interacciones confidenciales entre especialistas antes de la publicación.</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 align-items-center">
+                      <div class="chat">
+                      <img src="../images/70_SemiPublic-Chat.png" class="chatIcon mb-4" alt="semi-public-chat">
+                      <h3 class="chatTitle">Debate semipúblico</h3>
+                      <p class="sectionText">Una conversación semipública se caracteriza por el acceso otorgado a toda la comunidad ArcheoBase, es decir, profesionales del mundo de la "arqueología". Esto permite beneficiarse de un espacio de intercambio entre profesionales, por lo tanto disponer de un espacio autorregulado, con garantía de calidad en cuanto a contenidos. La lluvia de ideas y la recopilación de opiniones sobre temas específicos pueden favorecerse dentro de esta comunidad profesional.</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 align-items-center">
+                      <div class="chat">
+                      <img src="../images/71_Public-Chat.png" class="chatIcon mb-4" alt="public-chat">
+                      <h3 class="chatTitle">Debate público</h3>
+                      <p class="sectionText">Una conversación pública, como su nombre indica, estará abierta al público en general. Un usuario de ArcheoBase puede lanzar un tema de discusión para recopilar la opinión de tantas personas como sea posible. Será el moderador o podrá designar a la persona que asumirá esta función. Se dispondrá de medios de control para asegurar la calidad de las discusiones y se podrá restringir el acceso, en caso de ser necesario.</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+           </div>
+        </div> 
+    </section>
+
+    <!-- Precise Classification of Discussions-->
+    <section id="preciseClassification">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-5 align-items-center">
+                  <div class="preciseClassificationTextCtrl">
+                  <img src="../images/72_Classifications.png" class="featuredIcon mb-4" alt="discussion-classification">
+                  <h2 class="sectionTitle mt-4">Clasificación precisa de conversaciones</h2>
+                  </div>
+              </div>
+              <div class="col-md-5 offset-md-2">
+                  <div class="preciseClassificationCtrl align-items-center">
+                    <p class="sectionText">Para profesionalizar ArcheoForum, los criterios de clasificación que califican cada discusión permitirán una investigación rápida y precisa dentro de una multitud de intercambios.</p>
+                    <hr class="horizontalDivider">
+                    <p class="sectionText">Cada discusión será clasificada por:</p>
+                  </div>
+                </div>
+                <div class="row mt-3 miniBoxes">
+                <div class="col-xl-2 col-md-4">
+                  <div class="miniBox Discipline">
+                  <h3 class="miniBoxTitle">Disciplina científica</h3>
+                  <p class="miniBoxText">(antropólogos, zoólogos, arqueólogos, .. .)</p>
+                  </div>
+              </div>
+              <div class="col-xl-2 col-md-4">
+                <div class="miniBox RawMaterial">
+                <h3 class="miniBoxTitle">Materias primas </h3>
+                <p class="miniBoxText">(vidrio, cerámica, orgánica, metales, ...)</p>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-4">
+              <div class="miniBox Structures">
+                <h3 class="miniBoxTitle">Estructuras</h3>
+                <p class="miniBoxText mt-3  ">(funeraria, vivienda, ...)</p>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-4">
+                <div class="miniBox chronologicalPhase">
+                <h3 class="miniBoxTitle">Fase cronológica</h3>
+                <p class="miniBoxText">(prehistoria, ...)</p>
+                </div>
+            </div>
+          <div class="col-xl-2 col-md-4">
+              <div class="miniBox countryProvince">
+                <h3 class="miniBoxTitle">Países con provincia</h3>
+                <p class="miniBoxText">(cantones, íslas, ...)</p>
+              </div>
+            </div>
+          </div>
+          <p class="sectionText mt-5">Estos criterios se complementarán por temas que el usuario puede crear para calificar mejor su discusión, por ejemplo: "armas", "gladio romano". Estos temas se pueden usar para calificar otras discusiones.</p>
+          </div>
+        </div>
+    </section>
+
+     <!-- Forum Carousel-->
+    <section id="forumCarousel">        
+        <div class="container">
+            <div class="row align-items-center">                       
+                    <div class="topContent text-lg-center text-sm-left">
+                        <img src="../images/73_Forum-Icon.png" class="featuredIcon mb-4" alt="forum">
+                        <h2 class="sectionTitle mt-4">Situación actual de ArcheoForum</h2>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      </div>
+                      <div class="carousel-inner mt-4">
+                        <div class="carousel-item active">
+                          <img src="../images/74_ForumScreenOne.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../images/75_ForumScreenTwo.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div> 
+           </div>
+        </div> 
+    </section>
+
+    <!-- Multilingual -->      
+    <section id="multiLingual">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-5 align-items-center">
+                  <div class="multiLingualCtrl">
+                      <img src="../images/76_Multilingual-Chat.jpg" class="img-fluid" alt="multilingual">
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-2">
+                    <div class="multiLingualTextCtrl">
+                      <img src="../images/62_Heatmap.png" class="featuredIcon mb-5" alt="immersion">
+                        <h2 class="sectionTitle">Multiling&#xFC;ismo</h2>
+                        <p class="sectionText my-0">ArcheoBase tiene como objetivo superar las fronteras ling&#xFC;&#xED;sticas. La herramienta de b&#xFA;squeda, al igual que en el m&#xF3;dulo ArcheoPublication, ser&#xE1; multiling&#xFC;e; el usuario tambi&#xE9;n puede traducir f&#xE1;cilmente el contenido de las discusiones.
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+      <!-- Footer -->
+      <section id="curveBGWithFooter">
+        <h2 class="sectionTitle d-none"></h2>
+        <div class="container">
+          <div class="footerContent">
+            <div class="row">
+              <div class="col-md-4 footerLinks">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/es/precio.html">Precio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/es/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/es/aviso-legal.html"
+                      >Avisos legales</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4 text-md-center footerLogo">
+                <img
+                  src="../images/archeobase_ic_org.svg"
+                  alt="logo"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-md-4 text-md-end">
+                <p class="copyright">
+                  © AnalyticBase Sàrl 2024 - All Rights Reserved
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scripts     -->
+      <script type="text/javascript">
+        var contact_page_url = "contact.html";
+      </script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"
+      ></script>
+      <script src="../scripts/master.js" crossorigin="anonymous"></script>
+      <script src="../scripts/videojs.js" type="text/javascript"></script>
+        </main>
+    </div>
+</body>
+</html>

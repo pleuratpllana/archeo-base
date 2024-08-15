@@ -4,8 +4,8 @@ Located in Switzerland, ArcheoBase is a platform designed to support archaeologi
 ## Responsibilities
 
 - **Web/UI Design:** Created the user interface and overall design for the website.
-- **Conversion to fully functional:** Transformed design concepts into a live, functional website.
-- **Frontend development:** Implemented the front-end code, including HTML, CSS, and JavaScript.
+- **Conversion to fully functional website:** Transformed design concepts into a live, functional website.
+- **Frontend development:** Implemented the front-end code, including HTML, CSS & JavaScript.
 - **Ensure Responsiveness:** Ensured the website is fully responsive and optimized for various devices and screen sizes.
 
 ## Technologies Used

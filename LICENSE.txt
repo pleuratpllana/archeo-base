@@ -1,0 +1,5 @@
+Proprietary License Agreement
+
+The code and design provided in this repository are proprietary and confidential. You may not publish, distribute, or otherwise make available the code or the website it generates to any third party. You may use the code only for the purpose specified in the agreement with [@ArcheoBase]. Unauthorized use, distribution, or publication of this code is strictly prohibited.
+
+This license does not grant you any rights to copy, modify, or share the code or any derivative works based on it.
